@@ -1,0 +1,29 @@
+{
+  "name": "ambientlightcss",
+  "version": "1.0.0",
+  "description": "A learning project for 3D CSS.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server index.html -p 8000",
+    "build:watch": "./build.sh --watch",
+    "build": "./build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahapat/AmbientLightCSS.git"
+  },
+  "keywords": [
+    "3D",
+    "CSS"
+  ],
+  "author": "Sahapat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sahapat/AmbientLightCSS/issues"
+  },
+  "homepage": "https://github.com/Sahapat/AmbientLightCSS#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "sass": "^1.52.3"
+  }
+}
