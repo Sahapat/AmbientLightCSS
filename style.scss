@@ -12,6 +12,11 @@ body {
     background: #050505;
 }
 
+.frame {
+    position: relative;
+    transform: scale(0.5);
+}
+
 .top {
     position: absolute;
     top: 0;
